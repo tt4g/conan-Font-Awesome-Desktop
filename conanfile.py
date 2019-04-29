@@ -6,7 +6,7 @@ from conans import ConanFile, tools
 
 
 class ConanfontawesomedesktopConan(ConanFile):
-    name = "Font-Awesome"
+    name = "Font-Awesome-Desktop"
     version = "5.8.1"
     settings = None
     description = "The iconic SVG, font, and CSS toolkit https://fontawesome.com"
