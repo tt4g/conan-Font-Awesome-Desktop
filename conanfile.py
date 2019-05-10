@@ -12,7 +12,7 @@ class ConanfontawesomedesktopConan(ConanFile):
     description = "The iconic SVG, font, and CSS toolkit https://fontawesome.com"
     url = "https://github.com/tt4g/conan-Font-Awesome-Desktop"
     homepage = "https://github.com/FortAwesome/Font-Awesome/"
-    license = "Font Awesome Free License https://fontawesome.com/license/free"
+    license = "Font Awesome Free License"
     author = "tt4g"
     topics = ("conan", "Font-Awesome")
     exports = "LICENSE"
