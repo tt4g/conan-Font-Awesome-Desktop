@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 
 class ConanfontawesomedesktopConan(ConanFile):
     name = "Font-Awesome-Desktop"
-    version = "5.10.1"
+    version = "5.10.2"
     settings = None
     description = "The iconic SVG, font, and CSS toolkit https://fontawesome.com"
     url = "https://github.com/tt4g/conan-Font-Awesome-Desktop"
@@ -20,7 +20,7 @@ class ConanfontawesomedesktopConan(ConanFile):
 
     def source(self):
         extracted_dir = "fontawesome-free-{0}-desktop".format(self.version)
-        sha256 = "82a706af092a8c494f2ef516966993fb2721acd1995304907f41a356d701e8ba"
+        sha256 = "351aeaf4d4e702bdcb6ab0d1262cd28c20ab7ba5bbea6494e2fb0d79a1d94bf8"
         tools.get("{0}/releases/download/{1}/{2}.zip".format(self.homepage, self.version, extracted_dir),
                   sha256=sha256)
         os.rename(extracted_dir, self._source_subfolder)
